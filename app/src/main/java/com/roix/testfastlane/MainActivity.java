@@ -49,4 +49,24 @@ public class MainActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
+
 }
+/***
+ *
+ lane :bump_version_code do
+ path = '../app/build.gradle'
+ re = /versionCode\s+(\d+)/
+
+ s = File.read(path)
+ versionCode = s[re, 1].to_i
+ s[re, 1] = (versionCode + 1).to_s
+
+ f = File.new(path, 'w')
+ f.write(s)
+ f.close
+ end
+ *
+ * bump version code script in the Fastfile
+ */
+/
