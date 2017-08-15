@@ -1,0 +1,2 @@
+json_key_file "/home/roix/Downloads/Google Play Android Developer-c5d751f316e4.json" # Path to the json secret file - Follow https://github.com/fastlane/supply#setup to get one
+package_name "com.roix.testfastlane" # e.g. com.krausefx.app

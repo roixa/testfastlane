@@ -69,4 +69,3 @@ public class MainActivity extends AppCompatActivity {
  *
  * bump version code script in the Fastfile
  */
-/
